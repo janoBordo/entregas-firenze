@@ -1,0 +1,500 @@
+body{
+    margin: 0; padding: 0;
+    background-image: url(../imagenes/fondodifuminado.jpg);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+#header-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none;
+
+}
+
+.header-nav__a {
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    text-decoration:none;
+    margin: 10px;
+}
+
+
+
+
+
+.header-nav{
+    background:linear-gradient(90deg, rgba(54,0,0,1) 0%, rgba(116,0,0,1) 50%, rgba(212,0,0,1) 100%);
+}
+
+.home-div{
+    display: flex;
+    justify-content: center;
+}
+
+.home-imagen{
+    display: block;
+    width: 100%;
+}
+
+.home-horario{
+    display: none;
+}
+
+.menu-celular{
+    display: none;
+}
+
+.contacto-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+
+    
+}
+
+.contacacto-nombre{
+    font-size: 16px;
+    font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif ;    border: 4px solid #a58340;
+    border-radius: 2px;
+    width: 750px;
+    height: 60px;
+    margin: 5px;
+}
+
+.contacacto-mail{
+    font-size: 16px;
+    font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif ;    border: 4px solid #a58340;
+    border-radius: 2px;
+    width: 750px;
+    height: 60px;
+    margin: 5px;
+}
+
+.contacto-info{
+    font-size: 16px;
+    font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif ;    margin: 8px;
+}
+
+.contacacto-textarea{
+    font-size: 16px;
+    font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif ;    border: 4px solid #a58340;
+    border-radius: 2px;
+    width: 750px;
+    height: 400px;
+    margin: 5px;
+}
+
+.contacto-boton{
+    background-color: #a58340;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+}
+
+.paginas-main__h2{
+    display: flex;
+    justify-content: center;
+}
+
+.paginas-main__a{
+    display: flex;
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    text-decoration:none;
+
+}
+
+.productos-target{
+   display: inline-flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+   background-color: rgb(182, 182, 182);
+    margin: 5px;
+    width: 450px;
+    box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+ cursor: pointer;
+}
+
+.productos-target__img:hover{
+    border-radius: 8px;
+    
+background: #ac1010;
+box-shadow:  -6px 6px 12px #ac0000,
+             6px -6px 12px #ff6c6c;
+             transition: 1s;
+
+}
+
+.productos-target__img{
+    display: flex ;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px;
+    width: 380px;
+    height: 350px;
+    border-radius: 8px;
+    background: #d4d4d4;
+    box-shadow:  -6px 6px 12px #555555,
+                 6px -6px 12px #ffffff;
+                 transition: 1s;
+}
+
+
+
+.productos-div__h3{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    font-family:'Nunito', sans-serif; 
+}
+
+.testimonios-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonios-tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    margin: 30px;
+    justify-content: center;
+}
+
+.testimonios-section__div{
+   display: flex ;
+   align-items: center;
+   justify-content: center;
+    width: 350px;
+   height: 220px;
+   border: solid 2px;
+   border-radius: 4px;
+   margin: 5px;
+}
+
+.testimonios-section__p{
+margin: 8px;
+font-family: 'Nunito', sans-serif;
+font-size: 14px;
+text-align: center;
+}
+
+.testimonios-imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.testimonios-galeria__img{
+    width: 400px;
+    height: 400px;
+    margin: 8px;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.testimonios-galeria__img:hover{
+    width: 480px;
+    height: 480px;
+    transition: 1s;
+}
+
+.nosotros-info{
+    font-family:  'Nunito', sans-serif ;
+    margin: 10px;
+}
+
+.nosotros-h3{
+    font-family:  'Nunito', sans-serif ;
+    font-size: 32px;
+    display: block;
+    
+}
+
+.nosotros-p{
+    font-family:  'Nunito', sans-serif ;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+
+.nosotros-img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nosotros-tarjetas{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+.nosotros-tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 5px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+font-family:  'Nunito', sans-serif ;
+font-size: 16px;
+width: 200px;
+height: 300px;
+margin: 15px;
+}
+
+.nosotros-tarjeta p{
+    margin: 5px;
+}
+
+.nosotros-tarjeta img{
+    width: 80px;
+    height: 80px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.footer-redsocial{
+    display: inline-flex;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+
+.footer-ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:  'Nunito', sans-serif ;
+    font-style: 16px;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+@media screen and (max-width:845px) {
+    #header-logo{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        text-align: start;
+        color: black;
+        background:linear-gradient(90deg, rgba(54, 0, 0, 0) 0%, rgba(116, 0, 0, 0) 50%, rgba(212, 0, 0, 0) 100%);
+    }
+    .home-imagen{
+        height: 300px;
+
+    }
+
+    
+    .home-horario{
+        display: flex;
+        justify-content: center;
+        margin: 2px;
+        font-weight: 500;
+     
+    }
+    
+    .home-horario__filcol{
+        border: solid 2px;
+       
+    }
+
+    .menu-celular{
+        display: block;
+    }
+    .footer-redsocial{
+        display: flex;
+        width: 70px;
+        height: 70px;
+        margin: 7px;  
+    }
+    .footer-ubicacion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family:  'Nunito', sans-serif ;
+        font-size: 12px;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    .footer-ubicacion__icono{
+        width: 35px;
+        height: 35px;
+        margin: 4px;
+    }
+
+    .nosotros-info{
+        font-family:  'Nunito', sans-serif ;
+        margin: 10px;
+    }
+    
+    .nosotros-h3{
+        font-family:  'Nunito', sans-serif ;
+        font-size: 32px;
+        display: block;
+        
+    }
+    
+    .nosotros-p{
+        font-family:  'Nunito', sans-serif ;
+        font-size: 18px;
+        margin-left: 10px;
+        
+    }
+    
+    .nosotros-imagen{
+        display:flex;
+        justify-content: center;
+        margin: 5px;
+        width: 410px;
+        height: 300px;
+        border-radius: 5px;
+    }
+
+    
+    .nosotros-tarjetas{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 3px;
+        justify-content: center;
+    
+    }
+    
+    .nosotros-tarjeta{
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+        backdrop-filter: blur( 20px );
+        -webkit-backdrop-filter: blur( 20px );
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.233);
+    
+        font-family:  'Nunito', sans-serif ;
+        font-size: 18px;
+        width: 195px;
+        height: 290px;
+        margin: 3px;
+    }
+    
+    .nosotros-tarjeta p{
+        margin: 5px;
+        font-size: 17px;
+    }
+    
+    .nosotros-tarjeta img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75px;
+        height: 75px;
+        margin: -18px;
+    }
+
+    .contacacto-nombre{
+        font-size: 16px;
+        font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif ;    border: 4px solid #a58340;
+        border-radius: 2px;
+        width: 380px;
+        height: 60px;
+        margin: 5px;
+    }
+    
+    .contacacto-mail{
+        font-size: 16px;
+        font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif ;    border: 4px solid #a58340;
+        border-radius: 2px;
+        width: 380px;
+        height: 60px;
+        margin: 5px;
+    }
+    
+    .contacto-info{
+        font-size: 16px;
+        font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif ;    margin: 8px;
+    }
+    
+    .contacacto-textarea{
+        font-size: 16px;
+        font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif ;    border: 4px solid #a58340;
+        border-radius: 2px;
+        width: 380px    ;
+        height: 400px;
+        margin: 5px;
+    }
+
+    .productos-target{
+        display: flex ;
+         justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background-color: rgb(182, 182, 182);
+         margin: 10px;
+         width: 380px;
+          border-radius: 8px;
+     
+     }
+     
+     .productos-target :hover{
+        display: none;
+     }
+     
+     .productos-target__img{
+         display: flex ;
+         justify-content: center;
+         border-radius: 5px;
+         margin: 5px;
+         width: 350px;
+         height: 350px;
+         background: #d4d4d4;
+     box-shadow:  -6px 6px 12px #fffffffa,
+                  6px -6px 12px #ffffffd5;
+     }
+     
+     
+    
+     .productos-div__h3{
+         display: flex;
+         justify-content: center;
+         margin-left: 20px;
+         font-family:'Nunito', sans-serif; 
+     }
+
+     .testimonios-galeria__img:hover{
+        width: 410px;
+        height: 410px;
+        transition: 1s;
+    }
+} 
+
